@@ -178,3 +178,33 @@ GROUP BY customer_type
 ORDER BY total_revenue DESC;
 
 ```
+
+
+## Based on the SQL analysis, the following charts were created in Tableau to visualize the data effectively:
+
+## 1. KPI
+
+![]()
+
+
+
+
+
+
+
+
+
+
+
+
+2
+3
+4
+5
+
+
+
+
+# Final Dashboard
+## The final dashboard integrates the above charts to provide a cohesive and insightful view of Walmart's sales data. It includes interactive filters to allow users to explore the data from different angles, enhancing the understanding of sales performance and customer behavior.
+
