@@ -1,4 +1,4 @@
---- time_of_day
+--- time_of_day column
 
 ALTER TABLE sales ADD time_of_day VARCHAR(20);
 
@@ -12,10 +12,24 @@ SET time_of_day =
 
 
 
---- day_name
+--- day_name column
 ALTER TABLE sales ADD day_name VARCHAR(10);
 
 UPDATE sales
 SET day_name = DATENAME(WEEKDAY, date);
+
+
+--- month_name column
+ALTER TABLE sales ADD month_name VARCHAR(10);
+
+UPDATE sales
+SET month_name = DATENAME(MONTH, date);
+
+
+--------------------------- Questions Answered ----------------------------
+
+How many unique cities does the data have?
+
+
 
 
