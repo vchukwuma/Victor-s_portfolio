@@ -3,7 +3,7 @@
 
 ## Walmart Sales Data Analysis
 
-This project explores Walmart's sales data to understand top-performing branches and products, sales trends across different products, and customer behavior. The aim is to study how sales strategies can be improved and optimized. The dataset was obtained from the Kaggle Walmart Sales Forecasting Competition.
+This project explores Walmart's sales data to understand top-performing branches and products, sales trends across different products, and customer behavior. The aim is to study how sales strategies can be improved and optimized. The dataset was obtained from the Kaggle Walmart Sales Forecasting Competition. [source](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/overview)
 
 ## Project Overview
 
@@ -40,8 +40,6 @@ Tables:
 |gross_margin_percentage  |Gross margin percentage |FLOAT    |
 |gross_income |Gross Income  |FLOAT    |
 |rating  |Rating |FLOAT    |
-
-
-
-
-
+|time_of_day |Time of day |NVARCHAR(50)    |
+|day_name |Day name|NVARCHAR(50)   |
+|month_name |Month name|NVARCHAR(50)   |
