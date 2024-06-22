@@ -212,8 +212,8 @@ ORDER BY total_revenue DESC;
 
 
 
-## 5.
-
+## 5. Gender with the largest sales
+![image](https://github.com/vchukwuma/Victor-s_portfolio/blob/main/Gender%20with%20the%20largest%20sales.png?raw=true)
 
 
 
