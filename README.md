@@ -220,3 +220,5 @@ ORDER BY total_revenue DESC;
 # Final Dashboard
 ## The final dashboard integrates the above charts to provide a cohesive and insightful view of Walmart's sales data. It includes interactive filters to allow users to explore the data from different angles, enhancing the understanding of sales performance and customer behavior.
 
+![image](https://github.com/vchukwuma/Victor-s_portfolio/blob/main/Dashboard%201.png?raw=true)
+
