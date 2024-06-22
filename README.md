@@ -43,6 +43,9 @@ Tables:
 
 
 
+## Add time of day
+
+```sql
 --- time_of_day column
 
 ALTER TABLE sales ADD time_of_day VARCHAR(20);
@@ -54,8 +57,11 @@ SET time_of_day =
         WHEN time BETWEEN '12:00:00' AND '15:59:59' THEN 'Afternoon'
         ELSE 'Evening'
     END;
+```
 
+## Day name
 
+```sql
 
 --- day_name column
 ALTER TABLE sales ADD day_name VARCHAR(10);
@@ -70,9 +76,13 @@ ALTER TABLE sales ADD month_name VARCHAR(10);
 UPDATE sales
 SET month_name = DATENAME(MONTH, date);
 
+```
+
+
+## 
 
 --------------------------- Questions Answered ----------------------------
-
+```sql
 --- How many unique cities does the data have?
 
 SELECT DISTINCT city FROM sales;
@@ -158,3 +168,5 @@ SELECT customer_type, SUM(total) AS total_revenue
 FROM sales
 GROUP BY customer_type
 ORDER BY total_revenue DESC;
+
+```
