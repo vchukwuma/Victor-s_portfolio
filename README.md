@@ -19,29 +19,29 @@ This analysis covers the following aspects of Walmart's sales data:
 
 To enhance the analysis, several columns were added to the dataset:
 
-**Adding `time_of_day` Column:**
-```sql
-ALTER TABLE sales ADD time_of_day VARCHAR(20);
+Tables:
 
-UPDATE sales
-SET time_of_day = 
-    CASE 
-        WHEN time BETWEEN '00:00:00' AND '11:59:59' THEN 'Morning'
-        WHEN time BETWEEN '12:00:00' AND '15:59:59' THEN 'Afternoon'
-        ELSE 'Evening'
-    END;
+|Column|Description|Data Type|
+|---|---|---|
+|invoice_id  |Invoice of the sales made  |NVARCHAR(50)   |
+|branch |Branch at which sales were made |NVARCHAR(50)   |
+|city |The location of the branch  |NVARCHAR(50)   |
+|customer_type |The type of the customer  |NVARCHAR(50)   |
+|gender  |Gender of the customer making purchase  |NVARCHAR(50)   |
+|product_line |Product line of the product sold  |NVARCHAR(50)   |
+|unit_price |The price of each product |FLOAT   |
+|quantity |The amount of the product sold  |TINYINT  |
+|VAT |The amount of tax on the purchase |FLOAT  |
+|total |The total cost of the purchase |FLOAT   |
+|date  |	The date on which the purchase was made |DATE   |
+|time |The time at which the purchase was made |TIME   |
+|payment_method  |The total amount paid  |NVARCHAR(50)  |
+|cogs  |Cost Of Goods sold  |FLOAT    |
+|gross_margin_percentage  |Gross margin percentage |FLOAT    |
+|gross_income |Gross Income  |FLOAT    |
+|rating  |Rating |FLOAT    |
 
-Adding day_name Column:
 
-ALTER TABLE sales ADD day_name VARCHAR(10);
 
-UPDATE sales
-SET day_name = DATENAME(WEEKDAY, date);
 
-Adding month_name Column:
-
-ALTER TABLE sales ADD month_name VARCHAR(10);
-
-UPDATE sales
-SET month_name = DATENAME(MONTH, date);
 
