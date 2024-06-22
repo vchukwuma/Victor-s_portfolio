@@ -189,15 +189,14 @@ ORDER BY total_revenue DESC;
 
 
 
+## 2. Product with the largest sales
+![image](https://github.com/vchukwuma/Victor-s_portfolio/blob/main/Product%20with%20largest%20sales.png?raw=true)
 
 
 
 
 
-
-
-2
-3
+## 3. 
 4
 5
 
