@@ -59,18 +59,25 @@ SET time_of_day =
     END;
 ```
 
-## Day name
+## Add day name
 
 ```sql
 
 --- day_name column
+
 ALTER TABLE sales ADD day_name VARCHAR(10);
 
 UPDATE sales
 SET day_name = DATENAME(WEEKDAY, date);
 
+```
+
+## Add month name
+
+```sql
 
 --- month_name column
+
 ALTER TABLE sales ADD month_name VARCHAR(10);
 
 UPDATE sales
@@ -83,6 +90,7 @@ SET month_name = DATENAME(MONTH, date);
 
 --------------------------- Questions Answered ----------------------------
 ```sql
+
 --- How many unique cities does the data have?
 
 SELECT DISTINCT city FROM sales;
