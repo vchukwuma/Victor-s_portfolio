@@ -30,34 +30,3 @@ SET time_of_day =
         WHEN time BETWEEN '12:00:00' AND '15:59:59' THEN 'Afternoon'
         ELSE 'Evening'
     END;
-
-**Adding `day_name` Column:**
-```sql
-ALTER TABLE sales ADD day_name VARCHAR(10);
-
-UPDATE sales
-SET day_name = DATENAME(WEEKDAY, date);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
