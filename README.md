@@ -183,8 +183,7 @@ ORDER BY total_revenue DESC;
 ## Based on the SQL analysis, the following charts were created in Tableau to visualize the data effectively:
 
 ## 1. KPI
-
-![]()
+![image](https://github.com/vchukwuma/Victor-s_portfolio/assets/89330614/e1d3e693-b1a8-4bfd-a78e-646614c559c2)
 
 
 
