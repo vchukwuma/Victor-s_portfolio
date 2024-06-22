@@ -196,7 +196,7 @@ ORDER BY total_revenue DESC;
 
 
 
-## 3. 
+## 3. Customer type bringing the most sales
 ![image](https://github.com/vchukwuma/Victor-s_portfolio/blob/main/Customer%20type%20bringing%20the%20most%20sales.png?raw=true)
 
 
@@ -204,7 +204,8 @@ ORDER BY total_revenue DESC;
 
 
 
-## 4.
+## 4. Sales by time of day & month
+![image](https://github.com/vchukwuma/Victor-s_portfolio/blob/main/Sales%20by%20time%20of%20day%20&%20month.png?raw=true)
 
 
 
