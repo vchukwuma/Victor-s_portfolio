@@ -197,8 +197,21 @@ ORDER BY total_revenue DESC;
 
 
 ## 3. 
-4
-5
+![image](https://github.com/vchukwuma/Victor-s_portfolio/blob/main/Customer%20type%20bringing%20the%20most%20sales.png?raw=true)
+
+
+
+
+
+
+## 4.
+
+
+
+
+
+
+## 5.
 
 
 
