@@ -30,8 +30,7 @@ More about the project can be found on my [GitHub Repository](https://github.com
 
 ## Overview Of The Dashboard Design
 
-![image](https://github.com/vchukwuma/Victor-s_portfolio/blob/f2789c0b9a8fadbced2d7dcf693ce53535804e16/Sales%20Dashboard%20Filter.png)
-
+![image](https://github.com/vchukwuma/Victor-s_portfolio/blob/main/Sales%20Dashbord.jpg)
 
 
 # Walmart Sales Data Analysis
