@@ -30,7 +30,6 @@ More about the project can be found on my [GitHub Repository](https://github.com
 
 ## Overview Of The Dashboard Design
 
-![image](https://github.com/vchukwuma/Victor-s_portfolio/assets/89330614/e1d3e693-b1a8-4bfd-a78e-646614c559c2)
 
 ![image](https://github.com/vchukwuma/Project-1-Tableau-User-Story-Sales-Performance-Dashboard-Analysis/blob/main/Sales%20Dashboard%20Filter.png)
 
