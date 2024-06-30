@@ -33,7 +33,6 @@ More about the project can be found on my [GitHub Repository](https://github.com
 
 ![image](https://github.com/vchukwuma/Project-1-Tableau-User-Story-Sales-Performance-Dashboard-Analysis/blob/main/Sales%20Dashboard%20Filter.png)
 
-![image](https://github.com/vchukwuma/Project-1-Tableau-User-Story-Sales-Performance-Dashboard-Analysis/blob/main/Sales%20Dashbord.jpg)
 
 
 
