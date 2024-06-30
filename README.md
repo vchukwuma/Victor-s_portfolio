@@ -1,27 +1,29 @@
 ##  Project 1: Tableau User Story | Sales Performance Dashboard Analysis
 
+# Overview
+
 The purpose of the sales dashboard is to present an overview of sales metrics and trends to analyze year-over-year sales performance and understand sales trends.
 
 Key Requirements
 
-- KPI Overview
+- [x] KPI Overview
 
-  Display a summary of total sales, profits, and quantity for the current year and the previous year.
+- Display a summary of total sales, profits, and quantity for the current year and the previous year.
 
-- Sales Trends
+- [x] Sales Trends
 
-  Present the data for each KPI monthly for both the current year and the previous year.
-  Identify months with the highest and lowest sales and make them easy to recognize.
-  Product Subcategory Comparison
+- Present the data for each KPI monthly for both the current year and the previous year.
+- Identify months with the highest and lowest sales and make them easy to recognize.
+- Product Subcategory Comparison
 
-  Compare sales performance by different product subcategories for the current year and the previous year.
-  Include a comparison of sales with profit.
+- Compare sales performance by different product subcategories for the current year and the previous year.
+- Include a comparison of sales with profit.
 
-- Weekly Trends for Sales & Profit
+- [x] Weekly Trends for Sales & Profit
 
-  Present weekly sales and profit data for the current year.
-  Display the average weekly values.
-  Highlight weeks that are above and below the average to draw attention to sales & profit performance.
+- Present weekly sales and profit data for the current year.
+- Display the average weekly values.
+- Highlight weeks that are above and below the average to draw attention to sales & profit performance.
 
 
 ## Overview Of The Singular Dashboard Design
@@ -33,77 +35,7 @@ Key Requirements
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Walmart Sales Data Analysis
+# Walmart Sales Data Analysis
 
 This project explores Walmart's sales data to understand top-performing branches and products, sales trends across different products, and customer behavior. The aim is to study how sales strategies can be improved and optimized. The dataset was obtained from the Kaggle Walmart Sales Forecasting Competition. [source](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/overview)
 
