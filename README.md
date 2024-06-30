@@ -28,7 +28,7 @@ Key Requirements
 More about the project can be found on my [GitHub Repository](https://github.com/vchukwuma/Project-1-Tableau-User-Story-Sales-Performance-Dashboard-Analysis)
 
 
-## Overview Of The Singular Dashboard Design
+## Overview Of The Dashboard Design
 
 
 ![image](https://github.com/vchukwuma/Project-1-Tableau-User-Story-Sales-Performance-Dashboard-Analysis/blob/main/Sales%20Dashboard%20Filter.png)
