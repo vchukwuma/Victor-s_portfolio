@@ -1,16 +1,16 @@
-##  Project 1: Tableau User Story | Sales Performance Dashboard Analysis
+#  Project 1: Tableau User Story | Sales Performance Dashboard Analysis
 
-# Overview
+## Overview
 
 The purpose of the sales dashboard is to present an overview of sales metrics and trends to analyze year-over-year sales performance and understand sales trends.
 
 Key Requirements
 
-###  KPI Overview
+##  KPI Overview
 
 - [x] Display a summary of total sales, profits, and quantity for the current year and the previous year.
 
-### Sales Trends
+## Sales Trends
 
 - [x] Present the data for each KPI monthly for both the current year and the previous year.
 - [x] Identify months with the highest and lowest sales and make them easy to recognize.
@@ -19,7 +19,7 @@ Key Requirements
 - [x] Compare sales performance by different product subcategories for the current year and the previous year.
 - [x] Include a comparison of sales with profit.
 
-### Weekly Trends for Sales & Profit
+## Weekly Trends for Sales & Profit
 
 - [x] Present weekly sales and profit data for the current year.
 - [x] Display the average weekly values.
@@ -33,7 +33,7 @@ More about the project can be found on my [GitHub Repository](https://github.com
 ![image](https://github.com/vchukwuma/Victor-s_portfolio/blob/main/Sales%20Dashbord.jpg)
 
 
-## Project 2: Walmart Sales Data Analysis
+# Project 2: Walmart Sales Data Analysis
 
 This project explores Walmart's sales data to understand top-performing branches and products, sales trends across different products, and customer behavior. The aim is to study how sales strategies can be improved and optimized. The dataset was obtained from the Kaggle Walmart Sales Forecasting Competition. [source](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/overview)
 
@@ -47,7 +47,9 @@ This analysis covers the following aspects of Walmart's sales data:
 4. **Sales Analysis by Gender**
 5. **Total Sales Sum**
 
-More about the project can be found on my [GitHub Repository](https://github.com/vchukwuma/salesWalmartData/tree/main)
+To enhance the analysis, several columns were added to the dataset:
+
+More about the project and SQL code can be found on my [GitHub Repository](https://github.com/vchukwuma/salesWalmartData/tree/main)
 
 ## Add time of day
 
@@ -90,9 +92,6 @@ UPDATE sales
 SET month_name = DATENAME(MONTH, date);
 
 ```
-
-
-To enhance the analysis, several columns were added to the dataset:
 
 Tables:
 
