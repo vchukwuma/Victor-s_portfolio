@@ -33,9 +33,9 @@ More about the project can be found on my [GitHub Repository](https://github.com
 ![image](https://github.com/vchukwuma/Victor-s_portfolio/blob/main/Sales%20Dashboard%20.png?raw=true)
 
 
-# Project 2: Walmart Sales Data Analysis
+# Project 2: SQL | Walmart Sales Data Analysis
 
-This project explores Walmart's sales data to understand top-performing branches and products, sales trends across different products, and customer behavior. The aim is to study how sales strategies can be improved and optimized. The dataset was obtained from the Kaggle Walmart Sales Forecasting Competition. [source](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/overview)
+This project explores Walmart's sales data with SQL to understand top-performing branches and products, sales trends across different products, and customer behavior. The aim is to study how sales strategies can be improved and optimized. The dataset was obtained from the Kaggle Walmart Sales Forecasting Competition. [source](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/overview)
 
 ### Project Overview
 
