@@ -25,6 +25,8 @@ Key Requirements
 - Display the average weekly values.
 - Highlight weeks that are above and below the average to draw attention to sales & profit performance.
 
+More about the project can be found on my [GitHub Repository](https://github.com/vchukwuma/Project-1-Tableau-User-Story-Sales-Performance-Dashboard-Analysis)
+
 
 ## Overview Of The Singular Dashboard Design
 
