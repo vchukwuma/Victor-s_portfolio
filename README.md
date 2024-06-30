@@ -33,7 +33,7 @@ More about the project can be found on my [GitHub Repository](https://github.com
 ![image](https://github.com/vchukwuma/Victor-s_portfolio/blob/main/Sales%20Dashbord.jpg)
 
 
-# Walmart Sales Data Analysis
+## Project 2: Walmart Sales Data Analysis
 
 This project explores Walmart's sales data to understand top-performing branches and products, sales trends across different products, and customer behavior. The aim is to study how sales strategies can be improved and optimized. The dataset was obtained from the Kaggle Walmart Sales Forecasting Competition. [source](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/overview)
 
@@ -47,36 +47,7 @@ This analysis covers the following aspects of Walmart's sales data:
 4. **Sales Analysis by Gender**
 5. **Total Sales Sum**
 
-## Data Preparation
-
-To enhance the analysis, several columns were added to the dataset:
-
-Tables:
-
-|Column|Description|Data Type|
-|---|---|---|
-|invoice_id  |Invoice of the sales made  |NVARCHAR(50)   |
-|branch |Branch at which sales were made |NVARCHAR(50)   |
-|city |The location of the branch  |NVARCHAR(50)   |
-|customer_type |The type of the customer  |NVARCHAR(50)   |
-|gender  |Gender of the customer making purchase  |NVARCHAR(50)   |
-|product_line |Product line of the product sold  |NVARCHAR(50)   |
-|unit_price |The price of each product |FLOAT   |
-|quantity |The amount of the product sold  |TINYINT  |
-|VAT |The amount of tax on the purchase |FLOAT  |
-|total |The total cost of the purchase |FLOAT   |
-|date  |	The date on which the purchase was made |DATE   |
-|time |The time at which the purchase was made |TIME   |
-|payment_method  |The total amount paid  |NVARCHAR(50)  |
-|cogs  |Cost Of Goods sold  |FLOAT    |
-|gross_margin_percentage  |Gross margin percentage |FLOAT    |
-|gross_income |Gross Income  |FLOAT    |
-|rating  |Rating |FLOAT    |
-|time_of_day |Time of day |NVARCHAR(50)    |
-|day_name |Day name|NVARCHAR(50)   |
-|month_name |Month name|NVARCHAR(50)   |
-
-
+More about the project can be found on my [GitHub Repository](https://github.com/vchukwuma/salesWalmartData/tree/main)
 
 ## Add time of day
 
@@ -121,96 +92,34 @@ SET month_name = DATENAME(MONTH, date);
 ```
 
 
-## 
+To enhance the analysis, several columns were added to the dataset:
 
---------------------------- Questions Answered ----------------------------
-```sql
+Tables:
 
---- How many unique cities does the data have?
-
-SELECT DISTINCT city FROM sales;
-
-
---- In which city is each branch?
-
-SELECT DISTINCT branch, city FROM sales;
-
-
---- How many unique product lines does the data have?
-
-SELECT COUNT(DISTINCT product_line) AS unique_product_lines FROM sales;
-
-
---- What is the most selling product line (by quantity)?
-
-SELECT product_line, SUM(quantity) AS qty
-FROM sales
-GROUP BY product_line
-ORDER BY qty DESC;
-
-
---- What is the most selling product line based on the number of transactions?
-
-SELECT product_line, COUNT(product_line) AS cnt
-FROM sales
-GROUP BY product_line
-ORDER BY cnt DESC;
+|Column|Description|Data Type|
+|---|---|---|
+|invoice_id  |Invoice of the sales made  |NVARCHAR(50)   |
+|branch |Branch at which sales were made |NVARCHAR(50)   |
+|city |The location of the branch  |NVARCHAR(50)   |
+|customer_type |The type of the customer  |NVARCHAR(50)   |
+|gender  |Gender of the customer making purchase  |NVARCHAR(50)   |
+|product_line |Product line of the product sold  |NVARCHAR(50)   |
+|unit_price |The price of each product |FLOAT   |
+|quantity |The amount of the product sold  |TINYINT  |
+|VAT |The amount of tax on the purchase |FLOAT  |
+|total |The total cost of the purchase |FLOAT   |
+|date  |	The date on which the purchase was made |DATE   |
+|time |The time at which the purchase was made |TIME   |
+|payment_method  |The total amount paid  |NVARCHAR(50)  |
+|cogs  |Cost Of Goods sold  |FLOAT    |
+|gross_margin_percentage  |Gross margin percentage |FLOAT    |
+|gross_income |Gross Income  |FLOAT    |
+|rating  |Rating |FLOAT    |
+|time_of_day |Time of day |NVARCHAR(50)    |
+|day_name |Day name|NVARCHAR(50)   |
+|month_name |Month name|NVARCHAR(50)   |
 
 
---- What is the total revenue by month?
-
-SELECT month_name AS month, SUM(total) AS total_revenue
-FROM sales
-GROUP BY month_name
-ORDER BY total_revenue DESC;
-
-
---- What product line had the largest revenue?
-
-SELECT product_line, SUM(total) AS largest_revenue
-FROM sales
-GROUP BY product_line
-ORDER BY largest_revenue DESC;
-
-
---- What month had the largest COGS?
-
-SELECT month_name AS month, SUM(cogs) AS cogs
-FROM sales
-GROUP BY month_name
-ORDER BY cogs DESC;
-
-
---- What is the city with the largest revenue?
-
-SELECT branch, city, SUM(total) AS total_revenue
-FROM sales
-GROUP BY city, branch
-ORDER BY total_revenue DESC;
-
-
---- What is the average rating of each product line?
-
-SELECT product_line, ROUND(AVG(rating), 2) AS avg_rating
-FROM sales
-GROUP BY product_line
-ORDER BY avg_rating DESC;
-
-
---- Number of sales made in each time of the day per weekday?
-
-SELECT day_name, time_of_day, COUNT(*) AS total_sales
-FROM sales
-GROUP BY day_name, time_of_day
-ORDER BY day_name, total_sales DESC;
-
-
---- Which customer types bring the most revenue?
-
-SELECT customer_type, SUM(total) AS total_revenue
-FROM sales
-GROUP BY customer_type
-ORDER BY total_revenue DESC;
 
 ```
 
