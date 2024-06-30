@@ -25,7 +25,7 @@ The purpose of the sales dashboard is to present to stakeholders and sales manag
 - [x] Display the average weekly values.
 - [x] Highlight weeks that are above and below the average to draw attention to sales & profit performance.
 
-More about the project can be found on my [GitHub Repository](https://github.com/vchukwuma/Project-1-Tableau-User-Story-Sales-Performance-Dashboard-Analysis)
+**More about the project can be found on my** [GitHub Repository](https://github.com/vchukwuma/Project-1-Tableau-User-Story-Sales-Performance-Dashboard-Analysis)
 
 
 ### Overview Of The Dashboard Design
@@ -49,7 +49,7 @@ This analysis covers the following aspects of Walmart's sales data:
 
 To enhance the analysis, several columns were added to the dataset:
 
-More about the project and SQL code can be found on my [GitHub Repository](https://github.com/vchukwuma/salesWalmartData/tree/main)
+**More about the project and SQL code can be found on my** [GitHub Repository](https://github.com/vchukwuma/salesWalmartData/tree/main)
 
 ### Add time of day
 
