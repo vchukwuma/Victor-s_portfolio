@@ -24,6 +24,8 @@ Highlight weeks that are above and below the average to draw attention to sales 
 
 ## Overview Of The Singular Dashboard Design
 
+![Sales DashBoard ](Filter).pdf)
+
 
 
 
